@@ -14,6 +14,7 @@
 		17D422AC1FBEBF8200F32E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D422AA1FBEBF8200F32E0F /* LaunchScreen.storyboard */; };
 		17D422B71FBEBF8200F32E0F /* Learning_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D422B61FBEBF8200F32E0F /* Learning_swiftTests.swift */; };
 		17D422C21FBEBF8200F32E0F /* Learning_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D422C11FBEBF8200F32E0F /* Learning_swiftUITests.swift */; };
+		17D422D01FBEC8BE00F32E0F /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D422CF1FBEC8BE00F32E0F /* CustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		17D422BD1FBEBF8200F32E0F /* Learning_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learning_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D422C11FBEBF8200F32E0F /* Learning_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_swiftUITests.swift; sourceTree = "<group>"; };
 		17D422C31FBEBF8200F32E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D422CF1FBEC8BE00F32E0F /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				17D422A81FBEBF8200F32E0F /* Assets.xcassets */,
 				17D422AA1FBEBF8200F32E0F /* LaunchScreen.storyboard */,
 				17D422AD1FBEBF8200F32E0F /* Info.plist */,
+				17D422CF1FBEC8BE00F32E0F /* CustomTableViewController.swift */,
 			);
 			path = Learning_swift;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D422A41FBEBF8200F32E0F /* ViewController.swift in Sources */,
+				17D422D01FBEC8BE00F32E0F /* CustomTableViewController.swift in Sources */,
 				17D422A21FBEBF8200F32E0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
